@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+       android:background="#ffeceff1"
+    >
+
+    <RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv1"
+            android:textSize="25sp"
+            android:text="Welcome Admin Home!!!"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="34dp"
+            android:textColor="#ff2239e3" />
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add New Country"
+            android:layout_below="@id/tv1"
+            android:layout_marginTop="17dp"
+            android:background="#ffb71c1c"
+            android:textColor="#ffffffff" />
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View All Country"
+            android:layout_below="@id/b1"
+            android:layout_marginTop="17dp"
+            android:background="#fff06292"
+            android:textColor="#ffffffff" />
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Country"
+            android:layout_below="@id/b2"
+            android:layout_marginTop="17dp"
+            android:background="#ff1976d2"
+            android:textColor="#ffffffff" />
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Match Details"
+            android:layout_below="@id/b3"
+            android:layout_marginTop="17dp"
+            android:background="#ff00897b"
+            android:textColor="#ffffffff" />
+        <Button
+            android:id="@+id/b5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View All Match"
+            android:layout_below="@id/b4"
+            android:layout_marginTop="17dp"
+            android:background="#ffff9100"
+            android:textColor="#ffffffff" />
+        <Button
+            android:id="@+id/b6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Match"
+            android:layout_below="@id/b5"
+            android:layout_marginTop="17dp"
+            android:background="#ff8d6e63"
+            android:textColor="#ffffffff" />
+        <Button
+            android:id="@+id/b7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Out"
+            android:layout_below="@id/b6"
+            android:layout_marginTop="17dp"
+            android:background="#ff1b5e20"
+            android:textColor="#ffffffff"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+</ScrollView>
